@@ -1,0 +1,26 @@
+{
+  "name": "create-n8n",
+  "version": "1.0.0",
+  "description": "Scaffolding tool for n8n workflow projects",
+  "main": "./dist/index.js",
+  "author": "JVON DEV <https://github.com/jvondev>",
+  "type": "module",
+  "bin": {
+    "create-n8n": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@clack/prompts": "^1.7.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
