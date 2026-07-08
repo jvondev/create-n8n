@@ -1,6 +1,6 @@
 {
   "name": "create-n8n",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scaffolding tool for n8n workflow projects",
   "main": "./dist/index.js",
   "author": "JVON DEV <https://github.com/jvondev>",
